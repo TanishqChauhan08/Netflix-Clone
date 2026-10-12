@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Netflix - Watch Movies & Shows</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <header class="hero">
+
+        <div class="background"></div>
+        <div class="background-overlay"></div>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+
+            <a href="#" class="logo">NETFLIX</a>
+
+            <div class="nav-right">
+
+                <select class="language" aria-label="Select language">
+                    <option value="en">🌐 English</option>
+                    <option value="hi">हिन्दी</option>
+                </select>
+
+                <a href="#" class="sign-in">Sign In</a>
+
+            </div>
+
+        </nav>
+
+        <!-- Hero Content -->
+        <main class="hero-content">
+
+            <p class="tagline">NETFLIX ORIGINAL</p>
+
+            <h1>Unlimited Entertainment.</h1>
+
+            <h2>Movies, TV Shows & More.</h2>
+
+            <div class="movie-info">
+                <span class="rating">★ 9.2</span>
+                <span>2026</span>
+                <span class="badge">HD</span>
+                <span>Action • Drama • Thriller</span>
+            </div>
+
+            <p class="description">
+                Enter a world of unforgettable stories, legendary heroes,
+                unexpected twists and thrilling adventures.
+                Your next favourite show is waiting for you.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#trending" class="btn play-btn">
+                    <span>▶</span> Play Now
+                </a>
+
+                <a href="#trending" class="btn info-btn">
+                    <span>ⓘ</span> More Info
+                </a>
+
+            </div>
+
+            <p class="membership">
+                Ready to watch? Join the entertainment revolution.
+            </p>
+
+            <form class="email-form" action="#" method="get">
+
+                <input type="email"
+                    name="email"
+                    placeholder="Email address"
+                    aria-label="Email address"
+                    required>
+
+                <button type="submit">
+                    Get Started <span>❯</span>
+                </button>
+
+            </form>
+
+        </main>
+
+        <div class="bottom-fade"></div>
+
+    </header>
+
+
+    <!-- Trending Movies -->
+    <section class="movies-section" id="trending">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="section-label">WHAT'S HOT</p>
+                <h2>Trending Now</h2>
+            </div>
+
+            <a href="#popular" class="view-all">Explore All ❯</a>
+
+        </div>
+
+        <div class="movie-row">
+
+            <a href="#popular" class="movie-card">
+                <span class="rank">1</span>
+                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                    alt="Oppenheimer movie poster">
+                <span class="movie-title">Oppenheimer</span>
+            </a>
+
+            <a href="#popular" class="movie-card">
+                <span class="rank">2</span>
+                <img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+                    alt="The Dark Knight movie poster">
+                <span class="movie-title">The Dark Knight</span>
+            </a>
+
+            <a href="#popular" class="movie-card">
+                <span class="rank">3</span>
+                <img src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+                    alt="Dune Part Two movie poster">
+                <span class="movie-title">Dune: Part Two</span>
+            </a>
+
+            <a href="#popular" class="movie-card">
+                <span class="rank">4</span>
+                <img src="https://image.tmdb.org/t/p/w500/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg"
+                    alt="Interstellar movie poster">
+                <span class="movie-title">Interstellar</span>
+            </a>
+
+            <a href="#popular" class="movie-card">
+                <span class="rank">5</span>
+                <img src="https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"
+                    alt="Inception movie poster">
+                <span class="movie-title">Inception</span>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Popular Section -->
+    <section class="movies-section popular-section" id="popular">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="section-label">YOUR NEXT BINGE</p>
+                <h2>Popular on Netflix</h2>
+            </div>
+
+        </div>
+
+        <div class="movie-row">
+
+            <a href="#trending" class="wide-card">
+                <img src="https://image.tmdb.org/t/p/w780/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                    alt="Oppenheimer">
+                <div class="card-overlay">
+                    <h3>Oppenheimer</h3>
+                    <p>Drama • History • Thriller</p>
+                    <span>▶ Watch Now</span>
+                </div>
+            </a>
+
+            <a href="#trending" class="wide-card">
+                <img src="https://image.tmdb.org/t/p/w780/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+                    alt="The Dark Knight">
+                <div class="card-overlay">
+                    <h3>The Dark Knight</h3>
+                    <p>Action • Crime • Drama</p>
+                    <span>▶ Watch Now</span>
+                </div>
+            </a>
+
+            <a href="#trending" class="wide-card">
+                <img src="https://image.tmdb.org/t/p/w780/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+                    alt="Dune Part Two">
+                <div class="card-overlay">
+                    <h3>Dune: Part Two</h3>
+                    <p>Sci-Fi • Adventure</p>
+                    <span>▶ Watch Now</span>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Features -->
+    <section class="features">
+
+        <h2>More Reasons to Join</h2>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <span class="feature-icon">📺</span>
+                <h3>Enjoy on your TV</h3>
+                <p>Watch on Smart TVs, laptops, tablets and phones.</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">🎬</span>
+                <h3>Endless Entertainment</h3>
+                <p>Discover movies and stories for every mood.</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">⚡</span>
+                <h3>Watch Anywhere</h3>
+                <p>Enjoy entertainment across your favourite devices.</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">👤</span>
+                <h3>Create Profiles</h3>
+                <p>Keep your favourite entertainment organised.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>Questions? This is a demo Netflix-style website.</p>
+
+        <div class="footer-links">
+            <a href="#trending">Trending</a>
+            <a href="#popular">Popular Movies</a>
+            <a href="#">Help Centre</a>
+            <a href="#">Terms of Use</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Entertainment UI Demo. Created for learning purposes.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+
